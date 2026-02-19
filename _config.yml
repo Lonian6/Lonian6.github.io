@@ -16,7 +16,7 @@
 title: Wei-Jaw Lee
 email: f12942089@ntu.edu.tw
 description: first year PhD student at National Taiwan University, advised by Prof. Yi-Hsuan Yang. My research interests include deep learning, music generation, multi-modalities control, and representation learning.
-baseurl: "/academic-homepage" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://Lonian6.github.io"
 twitter_username: Lonian6
 github_username:  Lonian6
