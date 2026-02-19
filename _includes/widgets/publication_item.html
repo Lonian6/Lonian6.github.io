@@ -1,4 +1,39 @@
 {% assign item = include.item %}
+<style>
+    a.item_link {
+    color: #748E63;
+    }
+    
+    .publication-cover {
+        object-fit: contain;
+        max-width: 100%;
+        max-height: 200px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .selected-publication {
+        background-color: #D2E9E9;
+    }
+    
+    .pub-badge {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        background-color: #78B9B5;
+        color: white;
+        padding: 2px 8px;
+        border-radius: 12px;
+        font-size: 0.7em;
+        font-weight: bold;
+        z-index: 10;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+    
+    .publication-container {
+        position: relative;
+    }
+    
+</style>
+
 <div class="d-none d-md-block">
     <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
         <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
@@ -6,6 +41,9 @@
             <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
             {%- else -%}
             <svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200"></svg>
+            {%- endif -%}
+            {%- if item.pub_ab -%}
+            <div class="pub-badge">{{ item.pub_ab }}</div>
             {%- endif -%}
         </div>
         <div class="col-md-9 col-xl-10 p-3 pl-md-0">
@@ -48,6 +86,9 @@
                     {% endfor %}
                 </p>
             </div>
+            {%- if item.pub_ab -%}
+            <div class="pub-badge">{{ item.pub_ab }}</div>
+            {%- endif -%}
         </div>
     </div>
 

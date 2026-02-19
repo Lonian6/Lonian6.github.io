@@ -13,7 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+title: Wei-Jaw Lee
+email: f12942089@ntu.edu.tw
+description: first year PhD student at National Taiwan University, advised by Prof. Yi-Hsuan Yang. My research interests include deep learning, music generation, multi-modalities control, and representation learning.
 baseurl: "/academic-homepage" # the subpath of your site, e.g. /blog
+url: "https://Lonian6.github.io"
+twitter_username: Lonian6
+github_username:  Lonian6
 
 # Build settings
 markdown: kramdown

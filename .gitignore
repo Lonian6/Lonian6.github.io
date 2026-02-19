@@ -8,3 +8,6 @@ vendor/
 Gemfile.lock
 
 .DS_Store
+readme.md
+./_publications/2023/
+./_publications/2024/
