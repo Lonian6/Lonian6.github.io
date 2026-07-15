@@ -3,5 +3,10 @@
 "ICML":      "#E67E22"
 "NeurIPS":   "#8E44AD"
 "ICLR":      "#16A085"
+
 "ISMIR":     "#2E86C1"
-"ISMIR LBD": "#5DADE2"
+"ISMIR LBD": "#2E86C1"
+
+"ICME-GC":      "#C0392B"
+
+"Arxiv":     "#F39C12"
