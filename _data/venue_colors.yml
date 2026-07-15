@@ -1,0 +1,7 @@
+# Conference/venue tag colors, keyed by a publication's `pub_ab` value.
+# Unmapped venues fall back to the default green (#78B9B5) in the template.
+"ICML":      "#E67E22"
+"NeurIPS":   "#8E44AD"
+"ICLR":      "#16A085"
+"ISMIR":     "#2E86C1"
+"ISMIR LBD": "#5DADE2"
