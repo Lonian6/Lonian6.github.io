@@ -3,14 +3,17 @@ secondary_name: "Lonian"
 navbar_name: "Wei-Jaw Lee"
 
 positions:
-- name: 1st year Ph.D. Student
+- name: Ph.D. Student
 - name: National Taiwan University
   logo: /assets/images/badges/NTU.png  # Logo is optional
 
 
 email: "f12942089@ntu.edu.tw"
-# cv_link: link-to-your-cv-file
-gscholar: Wei-Jaw Lee  # This is an example, replace it with your own Google Scholar ID
+# CV: drop your PDF at assets/cv/ and uncomment the line below to show a "Curriculum Vitae" link.
+# cv_link: /assets/cv/Wei-Jaw-Lee-CV.pdf
+# Google Scholar: set this to your Scholar user ID (the "user=XXXX" part of your profile URL),
+# then uncomment. Left disabled for now so no broken link ships.
+# gscholar: YOUR_SCHOLAR_ID
 github: Lonian6
 twitter: Lonian6  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
