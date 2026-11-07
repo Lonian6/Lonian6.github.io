@@ -90,3 +90,11 @@ div.lazy {
     font-family: Source Code Pro, monospace;
 }
 
+
+.profile-links {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    row-gap: 0.5rem;
+    column-gap: 0.75rem;
+}
