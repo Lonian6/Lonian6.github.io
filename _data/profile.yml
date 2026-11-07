@@ -3,13 +3,13 @@ secondary_name: "Lonian"
 navbar_name: "Wei-Jaw Lee"
 
 positions:
-- name: 1st year Ph.D. Student
+- name: 2nd year Ph.D. Student
 - name: National Taiwan University
   logo: /assets/images/badges/NTU.png  # Logo is optional
 
 
 email: "f12942089@ntu.edu.tw"
-# cv_link: link-to-your-cv-file
+cv_link: /assets/WEIJAW_LEE_cv.pdf
 gscholar: Wei-Jaw Lee  # This is an example, replace it with your own Google Scholar ID
 github: Lonian6
 twitter: Lonian6  # Do not include the '@' symbol
@@ -22,14 +22,15 @@ orcid: 0009-0004-0449-2791
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am Wei-Jaw (Lonian) Lee (李維釗), a first year PhD student in the depart of Graduate Institute of Communication Engineering at <b>National Taiwan University</b> in Taipei, Taiwan.
-    I am a member of <a href="https://affige.github.io/lab.html" target="_blank">Music an AI Lab</a>, under the supervision of <a href="https://affige.github.io/" target="_blank">Prof. Yi-Hsuan Yang</a>.
+    I am Wei-Jaw (Lonian) Lee (李維釗), a second-year PhD student in the Graduate Institute of Communication Engineering at <b>National Taiwan University</b> in Taipei, Taiwan.
+    I am a member of <a href="https://affige.github.io/lab.html" target="_blank">Music and AI Lab</a>, under the supervision of <a href="https://affige.github.io/" target="_blank">Prof. Yi-Hsuan Yang</a>.
   </p>
   <p>
     My research interests lie in the field of <b>music generation</b>. More specifically, I am exploring the following topics:
     <ul>
-      <li>Multi-modalities control of music generation</li>
-      <li>Model efficiency(training, data, and inference) in music generation</li>
+      <li><b>Fine-grained evaluation and control:</b> semantic alignment, concept-level evaluation, and feedback-driven generative modeling.</li>
+      <li><b>Controllable generation:</b> multimodal conditioning and structured control for music and song generation.</li>
+      <li><b>Efficiency:</b> state-space models, data-efficient training, and computationally efficient music generation.</li>
     </ul>
   </p>
 
@@ -53,7 +54,7 @@ experience:
 - name: Taiwan AILabs
   logo: /assets/images/badges/AILabs.png
   position: Research Intern
-  date: May. 2025 - Present
+  date: May. 2025 - Oct. 2026
 
 awards:
 - name: Top-Tier Doctoral Fellowship, College of Electrical Engineering and Computer Science
